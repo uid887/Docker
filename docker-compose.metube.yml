@@ -1,0 +1,15 @@
+version: "3"
+services:
+  metube:
+    image: ghcr.io/alexta69/metube:latest
+    container_name: metube
+    restart: unless-stopped
+    ports:
+      - "8081:8081"  # Change to "8082:8081" if you want a different external port
+    volumes:
+      - /home/uid885/Videos/MeTube:/downloads
+    environment:
+      - UID=1000  # Your user ID
+      - GID=1000 # Your group ID
+      - DOWNLOAD_DIR=/downloads
+      - TZ=Africa/Johannesburg  # Adjust to your timezone
