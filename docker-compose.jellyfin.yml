@@ -1,0 +1,17 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    restart: unless-stopped
+    network_mode: bridge
+    ports:
+      - 8096:8096
+    volumes:
+      - /home/uid887/jellyfin/config:/config
+      - /home/uid887/jellyfin/cache:/cache
+      - /home/uid887/Videos/Series:/media/Series:ro # change to your actual path
+      - /home/uid887/Videos/Movies:/media/Movies:ro # change to your actual path
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Africa/Johannesburg
