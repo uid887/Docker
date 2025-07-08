@@ -1,6 +1,1 @@
-*.yml linguist-detectable=true
-*.yml linguist-language=YAML
-*.yml linguist-documentation=false
-*.yaml linguist-detectable=true
-*.yaml linguist-language=YAML
-*.yaml linguist-documentation=false
+docker-compose.*.yml linguist-language=Docker
