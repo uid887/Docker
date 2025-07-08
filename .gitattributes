@@ -1,1 +1,7 @@
 docker-compose.*.yml linguist-language=Docker
+*.yml linguist-detectable=true
+*.yml linguist-language=Docker
+*.yml linguist-documentation=false
+*.yml linguist-detectable=true
+*.yml linguist-language=Docker
+*.yml linguist-documentation=false
