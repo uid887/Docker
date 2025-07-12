@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  glances:
+    image: nicolargo/glances:latest
+    container_name: glances
+    restart: unless-stopped
+    ports:
+      - "61208:61208"  # Web UI poort
+    environment:
+      - "GLANCES_OPT=-w"  # -w = webserver mode
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro  # Docker info
+      - /etc/os-release:/etc/os-release:ro            # OS info
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /etc/machine-id:/etc/machine-id:ro
+    pid: "host"  # Nodig vir toegang tot /proc
