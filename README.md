@@ -9,3 +9,7 @@ List of Docker / Docker Compose
 • [docker-compose.watchtower](https://github.com/uid887/Docker/blob/main/docker-compose.watchtower.yml): watchtower <br>
 • [docker-compose.rustdesk](https://github.com/uid887/Docker/blob/main/docker-compose.rustdesk.yml): RustDesk Server <br>
 • [docker-compose.apache](https://github.com/uid887/Docker/blob/main/docker-compose.apache.yml): Apache <br>
+• [docker-compose.glances](https://github.com/uid887/Docker/blob/main/docker-compose.glances.yml): glances <br>
+• [docker-compose.sterlingPDF](https://github.com/uid887/Docker/blob/main/docker-compose.sterlingPDF.yml): sterlingPDF <br>
+• [docker-compose.wireguard](https://github.com/uid887/Docker/blob/main/docker-compose.wireguard.yml): wireguard <br>
+• [docker-compose.tailscale](https://github.com/uid887/Docker/blob/main/docker-compose.tailscale.yml): tailscale <br>
