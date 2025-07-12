@@ -8,3 +8,4 @@ List of Docker / Docker Compose
 • [docker-compose.speedtest](https://github.com/uid887/Docker/blob/main/docker-compose.speedtest.yml): speedtest <br>
 • [docker-compose.watchtower](https://github.com/uid887/Docker/blob/main/docker-compose.watchtower.yml): watchtower <br>
 • [docker-compose.rustdesk](https://github.com/uid887/Docker/blob/main/docker-compose.rustdesk.yml): RustDesk Server <br>
+• [docker-compose.apache](https://github.com/uid887/Docker/blob/main/docker-compose.apache.yml): Apache <br>
